@@ -1,0 +1,106 @@
+[Root]
+Most Recent Package=Installation de Black-FX
+
+
+[Package|Installation de Black-FX|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Black-FX\Package
+
+[Package|Installation de Black-FX|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Installation de Black-FX|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Installation de Black-FX|Files Found]
+
+[Package|Installation de Black-FX|Files Released]
+
+[Package|Installation de Black-FX|Missing Dependency Information]
+
+[Package|Installation de Black-FX|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+
+[Package|Installation de Black-FX|Files Added]
+
+[Package|Installation de Black-FX|Files Removed]
+
+[Package|Installation de Black-FX|Files In Project]
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\vb6fr.dll=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCMCFR.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCTLFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Black-FX\Black-FX.exe=Yes
+
+[Package|Installation de Black-FX|Configure Registry Files]
+Applicable=No
+
+[Package|Installation de Black-FX|Configure Remote Servers]
+Applicable=No
+
+[Package|Installation de Black-FX|Install Locations]
+C:\Black-FX\BlackFX.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vb6fr.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCTLFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Black-FX\Black-FX.exe=$(AppPath)
+
+[Package|Installation de Black-FX|Configure Shared Files]
+Applicable=Yes
+C:\Black-FX\BlackFX.exe=No
+C:\Black-FX\Black-FX.exe=No
+
+[Package|Installation de Black-FX|Distribution]
+Type=single
+Size=1.44 MB
+Title=Black-FX, le photoshop gratuit et Open-Source Par BlackWizzard
+
+[Package|Installation de Black-FX|IconGroups]
+Group0=Black-FX, le photoshop gratuit et Open-Source Par BlackWizzard
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|Installation de Black-FX|Black-FX, le photoshop gratuit et Open-Source Par BlackWizzard]
+Icon1=BlackFX.exe
+Title1=Black-FX, le photoshop gratuit et Open-Source Par BlackWizzard
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Installation de Black-FX|Package]
+PackageFolder=C:\Black-FX\Package
+ProjectFolder=C:\Black-FX
+ServerSideCab=
+File1=C:\Black-FX\Package\setup.exe
+File2=C:\Black-FX\Package\Setup.Lst
+File3=C:\Black-FX\Package\Black-FX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
